@@ -1,0 +1,69 @@
+@font-face{
+	font-family: digital;
+	src: url(font/Digitalt.ttf);
+}
+
+h1{
+	font-family: digital;
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.container {
+	width: 420px
+	height: 420px;
+}
+
+.gameInfo{
+	width: 410px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#score, #timer{
+	display: block;
+	border: 1px solid;
+	margin: 1px;
+	width: 200px;
+	height: 48px;
+	float: left;
+	font-family: digital;
+}
+
+.gameboard {
+	width: 410px;
+	height: 410px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.gameboard div{
+	display: block;
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.gameControls {
+	margin: 0 auto;
+	height: 50px;
+	width: 410px;
+}
+
+#startGame, #restartGame {
+	float: left;
+	width: 205px;
+}
+
+.highScore {
+	margin: 0 auto;
+	height: 50px;
+	width: 410px;
+}
+
+
+
+
